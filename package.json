@@ -1,0 +1,24 @@
+{
+  "name": "jste-cli",
+  "version": "0.0.1",
+  "description": "JSTE command line tools",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aristov/jste-cli.git"
+  },
+  "keywords": [
+    "JSTE",
+    "CLI"
+  ],
+  "author": "Vyacheslav Aristov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aristov/jste-cli/issues"
+  },
+  "homepage": "https://github.com/aristov/jste-cli#readme"
+}
