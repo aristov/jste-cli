@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/aristov/jste-cli/issues"
   },
-  "homepage": "https://github.com/aristov/jste-cli#readme"
+  "homepage": "https://github.com/aristov/jste-cli#readme",
+  "dependencies": {
+    "jsdom": "^23.0.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "ava": "^6.0.0"
+  }
 }
