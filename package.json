@@ -4,10 +4,11 @@
   "description": "JSTE command line tools",
   "main": "index.js",
   "bin": {
-    "jste" : "./bin/jste.js"
+    "jste": "./bin/jste.js"
   },
   "type": "module",
   "scripts": {
+    "publish": "git push && git push --tags",
     "test": "ava"
   },
   "repository": {
