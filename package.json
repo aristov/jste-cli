@@ -39,5 +39,8 @@
   "devDependencies": {
     "ava": "^6.0.0",
     "c8": "^8.0.1"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }
