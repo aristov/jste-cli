@@ -43,7 +43,7 @@ test('quoted attribute', t => {
 import { span } from 'jste'
 
 export default () => span({
-  'aria-label' : 'the 'quot' example',
+  'aria-label' : 'the \\'quot\\' example',
 })
 `.trim()
 
