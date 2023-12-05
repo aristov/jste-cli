@@ -14,7 +14,7 @@
   "type": "module",
   "scripts": {
     "coverage": "c8 --reporter=lcov npm test",
-    "coverage-html": "c8 --reporter=html npm test",
+    "coverage:html": "c8 --reporter=html npm test",
     "publish": "git push && git push --tags",
     "test": "ava",
     "test:watch": "ava --watch"
