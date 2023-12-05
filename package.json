@@ -16,7 +16,8 @@
     "coverage": "c8 --reporter=lcov npm test",
     "coverage-html": "c8 --reporter=html npm test",
     "publish": "git push && git push --tags",
-    "test": "ava"
+    "test": "ava",
+    "test:watch": "ava --watch"
   },
   "repository": {
     "type": "git",
@@ -37,7 +38,7 @@
     "yargs": "^17.7.2"
   },
   "devDependencies": {
-    "ava": "^6.0.0",
+    "ava": "^5.3.1",
     "c8": "^8.0.1"
   },
   "engines": {
