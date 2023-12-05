@@ -50,7 +50,7 @@ test('head', t => {
 })
 
 test('comment', t => {
-  const html = '<div><!-- example --></div>'
+  const html = '<div><!--This is a comment--></div>'
   t.snapshot(html2jste(html, 'esm'))
 })
 
