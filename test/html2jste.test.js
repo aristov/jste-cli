@@ -44,6 +44,26 @@ test('child elements', t => {
   t.snapshot(html2jste(html))
 })
 
+test('head', t => {
+  const html = '<head><title>test</title></head>'
+  t.snapshot(html2jste(html, 'esm'))
+})
+
+test('comment', t => {
+  const html = '<div><!-- example --></div>'
+  t.snapshot(html2jste(html, 'esm'))
+})
+
+test('doctype', async t => {
+  const html = '<!doctype html><title>test</title>'
+  t.snapshot(html2jste(html, 'esm'))
+})
+
+test('doctype + lang', async t => {
+  const html = '<!doctype html><html lang="ru"></html>'
+  t.snapshot(html2jste(html, 'esm'))
+})
+
 test('complex', async t => {
   const html = await loadSample('complex.html')
   t.snapshot(html2jste(html))
