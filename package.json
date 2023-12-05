@@ -6,8 +6,15 @@
   "bin": {
     "jste": "./bin/jste.js"
   },
+  "files": [
+    "bin",
+    "index.js",
+    "lib"
+  ],
   "type": "module",
   "scripts": {
+    "coverage": "c8 --reporter=lcov npm test",
+    "coverage-html": "c8 --reporter=html npm test",
     "publish": "git push && git push --tags",
     "test": "ava"
   },
@@ -30,6 +37,7 @@
     "yargs": "^17.7.2"
   },
   "devDependencies": {
-    "ava": "^6.0.0"
+    "ava": "^6.0.0",
+    "c8": "^8.0.1"
   }
 }
